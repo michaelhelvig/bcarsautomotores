@@ -2,9 +2,8 @@ import { WhatsAppIcon, InstagramIcon, TikTokIcon } from './icons'
 import { buildWhatsAppUrl } from '@/lib/whatsapp'
 import { INSTAGRAM_URL } from '@/lib/social'
 
-// TODO: reemplazar por la dirección real de BCARS AUTOMOTORES.
-const ADDRESS = 'Dirección a confirmar, Buenos Aires'
-const MAPS_SEARCH_QUERY = 'BCARS AUTOMOTORES, Buenos Aires, Argentina'
+const ADDRESS = 'Av. Remedios de Escalada de San Martín 1992, Lanús, Argentina 1824'
+const MAPS_SEARCH_QUERY = ADDRESS
 const MAPS_EMBED_SRC =
   'https://maps.google.com/maps?q=' + encodeURIComponent(MAPS_SEARCH_QUERY) + '&t=&z=16&ie=UTF8&iwloc=&output=embed'
 const MAPS_LINK = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(MAPS_SEARCH_QUERY)
