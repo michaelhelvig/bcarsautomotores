@@ -10,7 +10,7 @@ function BrandAvatar() {
       className="shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-white font-black italic border border-white/40 leading-none"
       style={{ backgroundColor: '#ffffffff' }}
     >
-      <span className="text-[10px] text-black">BCARS</span>
+      <span className="text-[10px] text-black">BC</span>
     </span>
   )
 }
