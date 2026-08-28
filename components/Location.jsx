@@ -84,11 +84,11 @@ export default function Location() {
               <dl className="mt-6 space-y-3 text-sm">
                 <div className="flex justify-between border-b border-white/10 pb-2">
                   <dt className="text-white/50">Lunes a viernes</dt>
-                  <dd className="font-medium text-white">09:00hs - 18:00hs</dd>
+                  <dd className="font-medium text-white">10:00hs - 18:00hs</dd>
                 </div>
                 <div className="flex justify-between border-b border-white/10 pb-2">
                   <dt className="text-white/50">Sábados</dt>
-                  <dd className="font-medium text-white">09:00hs - 18:00hs</dd>
+                  <dd className="font-medium text-white">10:00hs - 14:00hs</dd>
                 </div>
                 <div className="flex justify-between">
                   <dt className="text-white/50">Domingos</dt>
