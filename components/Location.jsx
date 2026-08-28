@@ -3,7 +3,11 @@ import { buildWhatsAppUrl } from '@/lib/whatsapp'
 import { INSTAGRAM_URL } from '@/lib/social'
 
 const ADDRESS = 'Av. Remedios de Escalada de San Martín 1992, Lanús, Argentina 1824'
-const MAPS_SEARCH_QUERY = ADDRESS
+// Se busca por nombre del negocio + dirección (no solo la dirección
+// sola): así Google Maps resuelve contra la ficha real de "BCARS
+// AUTOMOTORES" (la que tiene las reseñas/estrellas cargadas), en vez de
+// mostrar apenas un pin genérico en esa ubicación.
+const MAPS_SEARCH_QUERY = `BCARS AUTOMOTORES, ${ADDRESS}`
 const MAPS_EMBED_SRC =
   'https://maps.google.com/maps?q=' + encodeURIComponent(MAPS_SEARCH_QUERY) + '&t=&z=16&ie=UTF8&iwloc=&output=embed'
 const MAPS_LINK = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(MAPS_SEARCH_QUERY)
